@@ -1,0 +1,16 @@
+#name, main, version and api are required
+name: Pingpong
+main: Pingpong/main
+version: 1.0.0
+api: [3.19.0]
+author: InsulatorGMan
+description: Ping pong for the server
+commands:
+ example:
+  description: pong
+  usage: "Usage: /ping"
+  permission: ping.command.example
+permissions:
+  ping.command.example:
+  description: "Allows the user to run /ping
+  default: true
